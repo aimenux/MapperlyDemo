@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F179F8C0-8978-479E-B46C-44DDE967DD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "src\App\App.csproj", "{E4B3D42C-56CF-4307-AF1C-2A52645A9944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{206E4E85-DC3E-4AD9-8213-FEACA761B2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "test\Tests\Tests.csproj", "{32CEAD19-857B-422D-A2E2-2682830A4D76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{3124084C-02E4-4D9B-A0DA-87E73FABC2D6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		global.json = global.json
+		README.md = README.md
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4B3D42C-56CF-4307-AF1C-2A52645A9944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B3D42C-56CF-4307-AF1C-2A52645A9944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B3D42C-56CF-4307-AF1C-2A52645A9944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B3D42C-56CF-4307-AF1C-2A52645A9944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CEAD19-857B-422D-A2E2-2682830A4D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CEAD19-857B-422D-A2E2-2682830A4D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CEAD19-857B-422D-A2E2-2682830A4D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CEAD19-857B-422D-A2E2-2682830A4D76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4B3D42C-56CF-4307-AF1C-2A52645A9944} = {F179F8C0-8978-479E-B46C-44DDE967DD03}
+		{32CEAD19-857B-422D-A2E2-2682830A4D76} = {206E4E85-DC3E-4AD9-8213-FEACA761B2B7}
+	EndGlobalSection
+EndGlobal

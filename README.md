@@ -13,4 +13,4 @@ In this repo, i m using [mapperly](https://mapperly.riok.app/) for object mappin
 > - `Example02` is using nested objects with collections
 >
 
-**`Tools`** : net 7.0, mapperly, xunit, fluent-assertions, auto-fixture
+**`Tools`** : net 8.0, mapperly, xunit, fluent-assertions, auto-fixture
